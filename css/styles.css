@@ -7,11 +7,12 @@ body {
     background-color: skyblue;
 }
 
-header {
-    background-color: #333;
+header {;
     color: white;
     padding: 20px;
+    margin: 20px;
     text-align: center;
+    border-bottom: whitesmoke solid 5px;
 }
 
 nav ul {
@@ -29,9 +30,21 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 section {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
+}
+
+h2 { 
+    color: #333;
 }
 
 footer {
@@ -47,8 +60,25 @@ footer {
 }
 
 #about {
-    background-color: #f4f4f4;
     padding: 20px;
     margin: 20px;
     text-align: justify;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
 }
