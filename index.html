@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -22,9 +23,10 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
+        <p> This is a simple webpage about me, my interests and projects.</p>
         <p>
             I am currently a full-time programming student at Humber College who is also working in the finance department of law firm in downtown Toronto.
-            I don't have a lot of , except for animals of all sorts, various types of books and foods of all kinds, including learning about different cuisines.
+            My interests include animals of all sorts, reading types of books or listening to podcasts, foods from different cuisines and occassionally writing.
             I am always interested in learning new things and am always open to dabbling into all sorts of projects.
         </p>
     </section>
@@ -32,7 +34,16 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <p>This is a placeholder for your projects. In future chapters, you’ll add real projects here.</p>
+            <p>This is a placeholder for your projects. In future chapters, you’ll add real projects here.</p>
+        <button onclick="showDetails('projectDetails')"> Project 1</button>
+            <p id="projectDetails"> Here you can find the animals that I like and currently have.</p>
+        <button onclick="showDetails('projectDetails2')"> Project 2</button>
+            <p id="projectDetails2"> Here you can find a webpage of all my favourite books.</p>
+        <button onclick="showDetails('projectDetails3')"> Project 3</button>
+            <p id="projectDetails3"> Here you can find a webpage of the podcasts I am listening to. </p>
+        <button onclick="showDetails('projectDetails4')"> Project 4</button>
+            <p id="projectDetails4"> Here you can find a webpage of some the recipes of dishes I have tried to make from different cuisines.</p>
+
     </section>
 
     <!-- Contact Section -->

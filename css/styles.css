@@ -55,7 +55,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    font-style: bold;
+    font-weight: bold;
     border: whitesmoke solid 5px;
 }
 
@@ -64,6 +64,30 @@ footer {
     margin: 20px;
     text-align: justify;
 }
+
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: solid 2px hsl(202, 66%, 42%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+.togglestyle {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightblue;
+    color: white;
+  }
 
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
