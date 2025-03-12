@@ -5,6 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: skyblue;
+    padding-bottom: 60px;
 }
 
 header {
@@ -87,7 +88,11 @@ button:hover {
     padding: 5px;
     background-color: lightblue;
     color: white;
-  }
+}
+
+.error {
+    color: red;
+}
 
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
